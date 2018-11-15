@@ -1,0 +1,31 @@
+{
+  "name": "financialapp",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "concurrently": "^4.0.1",
+    "cookie-parser": "^1.4.3",
+    "eslint": "5.6.0",
+    "eslint-plugin-react": "^7.11.1",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarekel96/financialApp.git"
+  },
+  "author": "tarek el-hajjaoui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarekel96/financialApp/issues"
+  },
+  "homepage": "https://github.com/tarekel96/financialApp#readme"
+}
