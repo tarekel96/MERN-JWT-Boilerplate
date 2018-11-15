@@ -77,9 +77,10 @@ export default class Signup extends Component {
               <span className="link-signup">Login</span>
             </Link>
           </div>
-          {/* <div className="signiture">
-                        <h1>Template Built & Designed by Roman Chvalbo</h1>
-                    </div> */}
+          <div className="signiture">
+            <h1>Designed by Tarek El-Hajjaoui</h1>
+            <footer>© Copyright 2018 Tarek El-Hajjaoui</footer>
+          </div>
         </div>
       </React.Fragment>
     );

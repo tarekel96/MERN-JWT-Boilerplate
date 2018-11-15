@@ -23,14 +23,20 @@ class App extends Component {
   // Render the protected component
   render() {
     // eslint-disable-next-line
-    let name = this.props.confirm.email;
+    let email = this.props.confirm.email;
 
     return (
       <div className="App">
         <div className="main-page">
-          <div className="top-section">{/* <h1>Welcome, {name}</h1> */}</div>
+          <div className="top-section">
+            <h1>Welcome, {email}. You are now Authenticated!</h1>
+          </div>
           <div className="bottom-section">
             <button onClick={this._handleLogout}>LOGOUT</button>
+          </div>
+          <div className="signiture">
+            <h1>Designed by Tarek El-Hajjaoui</h1>
+            <footer>© Copyright 2018 Tarek El-Hajjaoui</footer>
           </div>
         </div>
       </div>
